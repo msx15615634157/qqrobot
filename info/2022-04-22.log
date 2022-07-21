@@ -1,0 +1,878 @@
+[2022-04-22 18:28:44.044] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting Application using Java 1.8.0_281 on DESKTOP-0AKVRSK with PID 9436 (C:\Users\Administrator\IntelliJIDEAProjects\ProcessFrameWork\robot\target\classes started by Administrator in C:\Users\Administrator\IntelliJIDEAProjects\ProcessFrameWork)
+[2022-04-22 18:28:44.044] [org.springframework.boot.SpringApplication] [main] [663] [INFO ] No active profile set, falling back to default profiles: default
+[2022-04-22 18:28:55.055] [love.forte.simbot.core.SimbotApp] [main] [339] [INFO ] Active resources: [simbot.properties, simbot.yml]
+[2022-04-22 18:28:55.055] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/core/2.3.4/core-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:28:55.055] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/component-mirai/2.3.4/component-mirai-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:28:55.055] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/http/client-core/2.3.4/client-core-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:28:55.055] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/http/client-ktor/2.3.4/client-ktor-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:28:55.055] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/serialization/json-fastjson/2.3.4/json-fastjson-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:28:57.057] [love.forte.simbot.core.SimbotApp] [main] [408] [DEBUG] package scan: love.forte.simbot.spring.autoconfigure
+[2022-04-22 18:28:57.057] [love.forte.simbot.core.configuration.CoreStrictConfiguration] [main] [44] [DEBUG] Core strict mode: true
+[2022-04-22 18:28:58.058] [love.forte.simbot.component.mirai.configuration.MiraiEventCacheConfiguration] [main] [67] [INFO ] Disable default mirai message cache.
+[2022-04-22 18:28:59.059] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [137] [DEBUG] Bot resource Type: RESOURCE_FIRST
+[2022-04-22 18:28:59.059] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [114] [DEBUG] Bot verify info by file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/bk.bot
+[2022-04-22 18:28:59.059] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [119] [DEBUG] Uri stream null: file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/bk.bot, try use url
+[2022-04-22 18:28:59.059] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [114] [DEBUG] Bot verify info by file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot1.bot
+[2022-04-22 18:28:59.059] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [119] [DEBUG] Uri stream null: file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot1.bot, try use url
+[2022-04-22 18:28:59.059] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [114] [DEBUG] Bot verify info by file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot2.bot
+[2022-04-22 18:28:59.059] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [119] [DEBUG] Uri stream null: file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot2.bot, try use url
+[2022-04-22 18:28:59.059] [love.forte.simbot.core.configuration.CoreBotRegistrar] [main] [58] [DEBUG] Configured bot: 3401740772
+[2022-04-22 18:28:59.059] [love.forte.simbot.core.configuration.CoreBotRegistrar] [main] [65] [DEBUG] Try to verify the bot(3401740772) information.
+[2022-04-22 18:28:59.059] [love.forte.simbot.component.mirai.configuration.MiraiBotManager] [main] [101] [DEBUG] Verify Bot 3401740772.
+[2022-04-22 18:28:59.059] [love.forte.simbot.component.mirai.configuration.MiraiBotVerifier] [main] [67] [DEBUG] verify bot code: 3401740772
+[2022-04-22 18:29:02.002] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Server list: 111.206.99.79:80, 157.148.54.16:80, 157.148.54.249:8080, 112.80.130.236:443, msfwifi.3g.qq.com:8080, 157.148.54.141:80, 112.80.130.241:80, 60.29.238.126:80, 123.125.0.210:14000.
+[2022-04-22 18:29:03.003] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] ECDH key is invalid, start to fetch ecdh public key from server.
+[2022-04-22 18:29:04.004] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Successfully fetched ecdh public key from server.
+[2022-04-22 18:29:05.005] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Login successful
+[2022-04-22 18:29:05.005] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Saved account secrets to local cache for fast login.
+[2022-04-22 18:29:05.005] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Login successful.
+[2022-04-22 18:29:05.005] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [nioEventLoopGroup-2-3] [82] [INFO ] Server time updated, serverTime: 1650623345, diff: 0ms=0.0s
+[2022-04-22 18:29:05.005] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Syncing friend message history...
+[2022-04-22 18:29:05.005] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Start loading friend list...
+[2022-04-22 18:29:05.005] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-4] [82] [INFO ] Start loading stranger list...
+[2022-04-22 18:29:05.005] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-4] [82] [INFO ] No OtherClient online.
+[2022-04-22 18:29:05.005] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-4] [82] [INFO ] Successfully loaded stranger list: 0 in total
+[2022-04-22 18:29:06.006] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-4] [82] [INFO ] Start loading group list...
+[2022-04-22 18:29:06.006] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-4] [82] [INFO ] Syncing friend message history: Success.
+[2022-04-22 18:29:06.006] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-4] [82] [INFO ] Successfully loaded friend list: 5 in total
+[2022-04-22 18:29:06.006] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-2] [82] [INFO ] Successfully loaded group list: 3 in total.
+[2022-04-22 18:29:06.006] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-4] [82] [INFO ] Scheduled key refresh in 23h 55min 0.0s.
+[2022-04-22 18:29:06.006] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Scheduled refresh login session in 19d 23h 55min 0.0s.
+[2022-04-22 18:29:06.006] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [main] [82] [INFO ] Bot login successful.
+[2022-04-22 18:29:06.006] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [46] [DEBUG] Start register listeners.
+[2022-04-22 18:29:06.006] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [54] [DEBUG] Starter register listeners by love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar@d229912.
+[2022-04-22 18:29:06.006] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [74] [INFO ] Ready to register method listeners.
+[2022-04-22 18:29:06.006] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [82] [DEBUG] Number of beans to be scanned: 210
+[2022-04-22 18:29:06.006] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar$registerListenerFunctions$2] [main] [104] [DEBUG] Cannot get type class org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration$$Lambda$270/1950117092 functions, skip.
+kotlin.reflect.jvm.internal.KotlinReflectionInternalError: Unresolved class: class org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration$$Lambda$270/1950117092
+	at kotlin.reflect.jvm.internal.KClassImpl.reportUnresolvedClass(KClassImpl.kt:329)
+	at kotlin.reflect.jvm.internal.KClassImpl.access$reportUnresolvedClass(KClassImpl.kt:44)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$descriptor$2.invoke(KClassImpl.kt:56)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$descriptor$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getDescriptor(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl.getDescriptor(KClassImpl.kt:182)
+	at kotlin.reflect.jvm.internal.KClassImpl.getMemberScope$kotlin_reflection(KClassImpl.kt:191)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$declaredNonStaticMembers$2.invoke(KClassImpl.kt:162)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$declaredNonStaticMembers$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getDeclaredNonStaticMembers(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allNonStaticMembers$2.invoke(KClassImpl.kt:171)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allNonStaticMembers$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getAllNonStaticMembers(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allMembers$2.invoke(KClassImpl.kt:177)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allMembers$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getAllMembers(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl.getMembers(KClassImpl.kt:195)
+	at kotlin.reflect.full.KClasses.getFunctions(KClasses.kt:90)
+	at love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar$registerListenerFunctions$2.invoke(CoreMethodPostListenerRegistrar.kt:103)
+	at love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar$registerListenerFunctions$2.invoke(CoreMethodPostListenerRegistrar.kt:94)
+	at kotlin.sequences.FlatteningSequence$iterator$1.ensureItemIterator(Sequences.kt:315)
+	at kotlin.sequences.FlatteningSequence$iterator$1.hasNext(Sequences.kt:303)
+	at love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar.registerListenerFunctions(CoreMethodPostListenerRegistrar.kt:166)
+	at love.forte.simbot.core.configuration.CoreListenerRegistrar.registerListeners(CoreListenerRegistrar.kt:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at love.forte.common.ioc.MethodDependPass.invoke(DependPass.kt:76)
+	at love.forte.common.ioc.DependCenter.init(DependCenter.kt:108)
+	at love.forte.simbot.core.SimbotApp.initDependCenter(SimbotApp.kt:434)
+	at love.forte.simbot.core.SimbotApp.run$core(SimbotApp.kt:279)
+	at love.forte.simbot.core.SimbotApp$Run.run(SimbotApp.kt:509)
+	at love.forte.simbot.core.SimbotApp.run(SimbotApp.kt)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration.simbotApp(SimbotAppConfiguration.java:77)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration$$EnhancerBySpringCGLIB$$bfac6b68.CGLIB$simbotApp$1(<generated>)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration$$EnhancerBySpringCGLIB$$bfac6b68$$FastClassBySpringCGLIB$$c44914fe.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration$$EnhancerBySpringCGLIB$$bfac6b68.simbotApp(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:760)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:720)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at pro.shuangxi.Application.main(Application.java:13)
+[2022-04-22 18:29:07.007] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [149] [DEBUG] Register listener: [onGroupMsg] for [GroupMsg], id=pro.shuangxi.controller.GroupListen.onGroupMsg#e3c5c054617241e29713bc15f4a2a256, groups=[]
+[2022-04-22 18:29:08.008] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [160] [INFO ] Method listeners Registration is complete.
+[2022-04-22 18:29:08.008] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [58] [DEBUG] Listeners registered.
+[2022-04-22 18:29:08.008] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [66] [DEBUG] Do registered by love.forte.simbot.component.mirai.configuration.MiraiListenerRegistered@113cc14d.
+[2022-04-22 18:29:08.008] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [nioEventLoopGroup-2-14] [82] [INFO ] Server list: 59.83.208.153:80, 157.148.54.73:443, 111.206.99.80:8080, 157.148.32.167:8080, 111.206.99.118:80, msfwifi.3g.qq.com:8080, 220.196.132.225:14000, 153.3.149.65:14000, 111.206.99.85:80, 123.125.0.161:80.
+[2022-04-22 18:29:09.009] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [81] [DEBUG] Try get botInfo for 守(3401740772)
+[2022-04-22 18:29:09.009] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [132] [INFO ] Registration Bot: code=3401740772, name=守, level=8
+[2022-04-22 18:29:09.009] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started Application in 26.766 seconds (JVM running for 32.68)
+[2022-04-22 18:29:09.009] [org.springframework.boot.availability.ApplicationAvailabilityBean] [main] [75] [INFO ] Application availability state LivenessState changed to CORRECT
+[2022-04-22 18:29:09.009] [org.springframework.boot.availability.ApplicationAvailabilityBean] [main] [75] [INFO ] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+[2022-04-22 18:29:14.014] [love.forte.simbot.core.listener.CoreListenerManager] [nioEventLoopGroup-2-2] [707] [DEBUG] Init Listener function caches for event type 'love.forte.simbot.component.mirai.message.event.MiraiGroupMsg'. normal listeners 1, spare listeners 0.
+[2022-04-22 18:29:14.014] [com.zaxxer.hikari.HikariDataSource] [simbot-core-event-dispatcher-M-1] [110] [INFO ] HikariPool-1 - Starting...
+[2022-04-22 18:29:15.015] [com.zaxxer.hikari.HikariDataSource] [simbot-core-event-dispatcher-M-1] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-04-22 18:29:16.016] [love.forte.simbot.core.processor.CoreListenResultProcessorManager$processors$2] [simbot-core-event-dispatcher-M-1] [47] [DEBUG] Init listen result processor: love.forte.simbot.core.processor.QuickReplyProcessor@1db1d325
+[2022-04-22 18:31:15.015] [com.zaxxer.hikari.pool.HikariPool$HouseKeeper] [HikariPool-1 housekeeper] [788] [WARN ] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m12ms224µs700ns).
+[2022-04-22 18:32:38.038] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting Application using Java 1.8.0_281 on DESKTOP-0AKVRSK with PID 17176 (C:\Users\Administrator\IntelliJIDEAProjects\ProcessFrameWork\robot\target\classes started by Administrator in C:\Users\Administrator\IntelliJIDEAProjects\ProcessFrameWork)
+[2022-04-22 18:32:38.038] [org.springframework.boot.SpringApplication] [main] [663] [INFO ] No active profile set, falling back to default profiles: default
+[2022-04-22 18:32:41.041] [love.forte.simbot.core.SimbotApp] [main] [339] [INFO ] Active resources: [simbot.properties, simbot.yml]
+[2022-04-22 18:32:41.041] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/core/2.3.4/core-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:32:41.041] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/component-mirai/2.3.4/component-mirai-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:32:41.041] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/http/client-core/2.3.4/client-core-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:32:41.041] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/http/client-ktor/2.3.4/client-ktor-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:32:41.041] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/serialization/json-fastjson/2.3.4/json-fastjson-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:32:43.043] [love.forte.simbot.core.SimbotApp] [main] [408] [DEBUG] package scan: love.forte.simbot.spring.autoconfigure
+[2022-04-22 18:32:43.043] [love.forte.simbot.core.configuration.CoreStrictConfiguration] [main] [44] [DEBUG] Core strict mode: true
+[2022-04-22 18:32:43.043] [love.forte.simbot.component.mirai.configuration.MiraiEventCacheConfiguration] [main] [67] [INFO ] Disable default mirai message cache.
+[2022-04-22 18:32:44.044] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [137] [DEBUG] Bot resource Type: RESOURCE_FIRST
+[2022-04-22 18:32:44.044] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [114] [DEBUG] Bot verify info by file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/bk.bot
+[2022-04-22 18:32:44.044] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [119] [DEBUG] Uri stream null: file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/bk.bot, try use url
+[2022-04-22 18:32:44.044] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [114] [DEBUG] Bot verify info by file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot1.bot
+[2022-04-22 18:32:44.044] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [119] [DEBUG] Uri stream null: file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot1.bot, try use url
+[2022-04-22 18:32:44.044] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [114] [DEBUG] Bot verify info by file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot2.bot
+[2022-04-22 18:32:44.044] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [119] [DEBUG] Uri stream null: file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot2.bot, try use url
+[2022-04-22 18:32:44.044] [love.forte.simbot.core.configuration.CoreBotRegistrar] [main] [58] [DEBUG] Configured bot: 3401740772
+[2022-04-22 18:32:44.044] [love.forte.simbot.core.configuration.CoreBotRegistrar] [main] [65] [DEBUG] Try to verify the bot(3401740772) information.
+[2022-04-22 18:32:44.044] [love.forte.simbot.component.mirai.configuration.MiraiBotManager] [main] [101] [DEBUG] Verify Bot 3401740772.
+[2022-04-22 18:32:44.044] [love.forte.simbot.component.mirai.configuration.MiraiBotVerifier] [main] [67] [DEBUG] verify bot code: 3401740772
+[2022-04-22 18:32:47.047] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Server list: 59.83.208.153:80, 157.148.54.73:443, 111.206.99.80:8080, 157.148.32.167:8080, 111.206.99.118:80, msfwifi.3g.qq.com:8080, 220.196.132.225:14000, 153.3.149.65:14000, 111.206.99.85:80, 123.125.0.161:80.
+[2022-04-22 18:32:49.049] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Loaded account secrets from local cache.
+[2022-04-22 18:32:49.049] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] ECDH key is valid.
+[2022-04-22 18:32:49.049] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Saved account secrets to local cache for fast login.
+[2022-04-22 18:32:49.049] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Login successful.
+[2022-04-22 18:32:49.049] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [nioEventLoopGroup-2-3] [82] [INFO ] Server time updated, serverTime: 1650623569, diff: 0ms=0.0s
+[2022-04-22 18:32:49.049] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Syncing friend message history...
+[2022-04-22 18:32:49.049] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Start loading friend list...
+[2022-04-22 18:32:49.049] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-5] [82] [INFO ] Start loading stranger list...
+[2022-04-22 18:32:49.049] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Successfully loaded stranger list: 0 in total
+[2022-04-22 18:32:49.049] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-2] [82] [INFO ] Syncing friend message history: Success.
+[2022-04-22 18:32:49.049] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-5] [82] [INFO ] No OtherClient online.
+[2022-04-22 18:32:49.049] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-2] [82] [INFO ] Start loading group list...
+[2022-04-22 18:32:49.049] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-2] [82] [INFO ] Successfully loaded friend list: 5 in total
+[2022-04-22 18:32:50.050] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-5] [82] [INFO ] Successfully loaded group list: 3 in total.
+[2022-04-22 18:32:50.050] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-4] [82] [INFO ] Scheduled refresh login session in 19d 23h 55min 0.0s.
+[2022-04-22 18:32:50.050] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-2] [82] [INFO ] Scheduled key refresh in 23h 55min 0.0s.
+[2022-04-22 18:32:50.050] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [main] [82] [INFO ] Bot login successful.
+[2022-04-22 18:32:50.050] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [46] [DEBUG] Start register listeners.
+[2022-04-22 18:32:50.050] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [54] [DEBUG] Starter register listeners by love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar@4ca5cb99.
+[2022-04-22 18:32:50.050] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [74] [INFO ] Ready to register method listeners.
+[2022-04-22 18:32:50.050] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [82] [DEBUG] Number of beans to be scanned: 211
+[2022-04-22 18:32:50.050] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar$registerListenerFunctions$2] [main] [104] [DEBUG] Cannot get type class org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration$$Lambda$270/671981276 functions, skip.
+kotlin.reflect.jvm.internal.KotlinReflectionInternalError: Unresolved class: class org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration$$Lambda$270/671981276
+	at kotlin.reflect.jvm.internal.KClassImpl.reportUnresolvedClass(KClassImpl.kt:329)
+	at kotlin.reflect.jvm.internal.KClassImpl.access$reportUnresolvedClass(KClassImpl.kt:44)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$descriptor$2.invoke(KClassImpl.kt:56)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$descriptor$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getDescriptor(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl.getDescriptor(KClassImpl.kt:182)
+	at kotlin.reflect.jvm.internal.KClassImpl.getMemberScope$kotlin_reflection(KClassImpl.kt:191)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$declaredNonStaticMembers$2.invoke(KClassImpl.kt:162)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$declaredNonStaticMembers$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getDeclaredNonStaticMembers(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allNonStaticMembers$2.invoke(KClassImpl.kt:171)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allNonStaticMembers$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getAllNonStaticMembers(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allMembers$2.invoke(KClassImpl.kt:177)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allMembers$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getAllMembers(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl.getMembers(KClassImpl.kt:195)
+	at kotlin.reflect.full.KClasses.getFunctions(KClasses.kt:90)
+	at love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar$registerListenerFunctions$2.invoke(CoreMethodPostListenerRegistrar.kt:103)
+	at love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar$registerListenerFunctions$2.invoke(CoreMethodPostListenerRegistrar.kt:94)
+	at kotlin.sequences.FlatteningSequence$iterator$1.ensureItemIterator(Sequences.kt:315)
+	at kotlin.sequences.FlatteningSequence$iterator$1.hasNext(Sequences.kt:303)
+	at love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar.registerListenerFunctions(CoreMethodPostListenerRegistrar.kt:166)
+	at love.forte.simbot.core.configuration.CoreListenerRegistrar.registerListeners(CoreListenerRegistrar.kt:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at love.forte.common.ioc.MethodDependPass.invoke(DependPass.kt:76)
+	at love.forte.common.ioc.DependCenter.init(DependCenter.kt:108)
+	at love.forte.simbot.core.SimbotApp.initDependCenter(SimbotApp.kt:434)
+	at love.forte.simbot.core.SimbotApp.run$core(SimbotApp.kt:279)
+	at love.forte.simbot.core.SimbotApp$Run.run(SimbotApp.kt:509)
+	at love.forte.simbot.core.SimbotApp.run(SimbotApp.kt)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration.simbotApp(SimbotAppConfiguration.java:77)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration$$EnhancerBySpringCGLIB$$1b92ed92.CGLIB$simbotApp$0(<generated>)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration$$EnhancerBySpringCGLIB$$1b92ed92$$FastClassBySpringCGLIB$$c7b79e0c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration$$EnhancerBySpringCGLIB$$1b92ed92.simbotApp(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:760)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:720)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at pro.shuangxi.Application.main(Application.java:13)
+[2022-04-22 18:32:51.051] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [149] [DEBUG] Register listener: [onGroupMsg] for [GroupMsg], id=pro.shuangxi.controller.GroupListen.onGroupMsg#e3c5c054617241e29713bc15f4a2a256, groups=[]
+[2022-04-22 18:32:52.052] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [160] [INFO ] Method listeners Registration is complete.
+[2022-04-22 18:32:52.052] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [58] [DEBUG] Listeners registered.
+[2022-04-22 18:32:52.052] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [66] [DEBUG] Do registered by love.forte.simbot.component.mirai.configuration.MiraiListenerRegistered@97cb8dc.
+[2022-04-22 18:32:53.053] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [81] [DEBUG] Try get botInfo for 守(3401740772)
+[2022-04-22 18:32:53.053] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [132] [INFO ] Registration Bot: code=3401740772, name=守, level=8
+[2022-04-22 18:32:53.053] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started Application in 16.376 seconds (JVM running for 21.566)
+[2022-04-22 18:32:53.053] [org.springframework.boot.availability.ApplicationAvailabilityBean] [main] [75] [INFO ] Application availability state LivenessState changed to CORRECT
+[2022-04-22 18:32:53.053] [org.springframework.boot.availability.ApplicationAvailabilityBean] [main] [75] [INFO ] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+[2022-04-22 18:33:56.056] [love.forte.simbot.core.listener.CoreListenerManager] [nioEventLoopGroup-2-1] [707] [DEBUG] Init Listener function caches for event type 'love.forte.simbot.component.mirai.message.event.MiraiGroupMsg'. normal listeners 1, spare listeners 0.
+[2022-04-22 18:38:22.022] [com.zaxxer.hikari.HikariDataSource] [simbot-core-event-dispatcher-M-1] [110] [INFO ] HikariPool-1 - Starting...
+[2022-04-22 18:38:23.023] [com.zaxxer.hikari.HikariDataSource] [simbot-core-event-dispatcher-M-1] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-04-22 18:38:23.023] [love.forte.simbot.core.processor.CoreListenResultProcessorManager$processors$2] [simbot-core-event-dispatcher-M-1] [47] [DEBUG] Init listen result processor: love.forte.simbot.core.processor.QuickReplyProcessor@524e5ceb
+[2022-04-22 18:45:17.017] [com.zaxxer.hikari.pool.HikariPool$HouseKeeper] [HikariPool-1 housekeeper] [788] [WARN ] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m54s67ms705µs).
+[2022-04-22 18:46:28.028] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting Application using Java 1.8.0_281 on DESKTOP-0AKVRSK with PID 19068 (C:\Users\Administrator\IntelliJIDEAProjects\ProcessFrameWork\robot\target\classes started by Administrator in C:\Users\Administrator\IntelliJIDEAProjects\ProcessFrameWork)
+[2022-04-22 18:46:28.028] [org.springframework.boot.SpringApplication] [main] [663] [INFO ] No active profile set, falling back to default profiles: default
+[2022-04-22 18:46:30.030] [love.forte.simbot.core.SimbotApp] [main] [339] [INFO ] Active resources: [simbot.properties, simbot.yml]
+[2022-04-22 18:46:30.030] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/core/2.3.4/core-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:46:30.030] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/component-mirai/2.3.4/component-mirai-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:46:30.030] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/http/client-core/2.3.4/client-core-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:46:30.030] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/http/client-ktor/2.3.4/client-ktor-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:46:30.030] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/serialization/json-fastjson/2.3.4/json-fastjson-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:46:32.032] [love.forte.simbot.core.SimbotApp] [main] [408] [DEBUG] package scan: love.forte.simbot.spring.autoconfigure
+[2022-04-22 18:46:32.032] [love.forte.simbot.core.configuration.CoreStrictConfiguration] [main] [44] [DEBUG] Core strict mode: true
+[2022-04-22 18:46:32.032] [love.forte.simbot.component.mirai.configuration.MiraiEventCacheConfiguration] [main] [67] [INFO ] Disable default mirai message cache.
+[2022-04-22 18:46:33.033] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [137] [DEBUG] Bot resource Type: RESOURCE_FIRST
+[2022-04-22 18:46:33.033] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [114] [DEBUG] Bot verify info by file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/bk.bot
+[2022-04-22 18:46:33.033] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [119] [DEBUG] Uri stream null: file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/bk.bot, try use url
+[2022-04-22 18:46:33.033] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [114] [DEBUG] Bot verify info by file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot1.bot
+[2022-04-22 18:46:33.033] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [119] [DEBUG] Uri stream null: file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot1.bot, try use url
+[2022-04-22 18:46:33.033] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [114] [DEBUG] Bot verify info by file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot2.bot
+[2022-04-22 18:46:33.033] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [119] [DEBUG] Uri stream null: file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot2.bot, try use url
+[2022-04-22 18:46:33.033] [love.forte.simbot.core.configuration.CoreBotRegistrar] [main] [58] [DEBUG] Configured bot: 3401740772
+[2022-04-22 18:46:33.033] [love.forte.simbot.core.configuration.CoreBotRegistrar] [main] [65] [DEBUG] Try to verify the bot(3401740772) information.
+[2022-04-22 18:46:33.033] [love.forte.simbot.component.mirai.configuration.MiraiBotManager] [main] [101] [DEBUG] Verify Bot 3401740772.
+[2022-04-22 18:46:33.033] [love.forte.simbot.component.mirai.configuration.MiraiBotVerifier] [main] [67] [DEBUG] verify bot code: 3401740772
+[2022-04-22 18:46:37.037] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Server list: 59.83.208.153:80, 157.148.54.73:443, 111.206.99.80:8080, 157.148.32.167:8080, 111.206.99.118:80, msfwifi.3g.qq.com:8080, 220.196.132.225:14000, 153.3.149.65:14000, 111.206.99.85:80, 123.125.0.161:80.
+[2022-04-22 18:46:38.038] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Loaded account secrets from local cache.
+[2022-04-22 18:46:38.038] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] ECDH key is valid.
+[2022-04-22 18:46:39.039] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Saved account secrets to local cache for fast login.
+[2022-04-22 18:46:39.039] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Login successful.
+[2022-04-22 18:46:39.039] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [nioEventLoopGroup-2-3] [82] [INFO ] Server time updated, serverTime: 1650624399, diff: 0ms=0.0s
+[2022-04-22 18:46:39.039] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Syncing friend message history...
+[2022-04-22 18:46:39.039] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Start loading friend list...
+[2022-04-22 18:46:39.039] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-5] [82] [INFO ] Start loading stranger list...
+[2022-04-22 18:46:39.039] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Syncing friend message history: Success.
+[2022-04-22 18:46:39.039] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Successfully loaded stranger list: 0 in total
+[2022-04-22 18:46:39.039] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] No OtherClient online.
+[2022-04-22 18:46:39.039] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Start loading group list...
+[2022-04-22 18:46:39.039] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Successfully loaded friend list: 5 in total
+[2022-04-22 18:46:40.040] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Successfully loaded group list: 3 in total.
+[2022-04-22 18:46:40.040] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Scheduled key refresh in 23h 55min 0.0s.
+[2022-04-22 18:46:40.040] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-4] [82] [INFO ] Scheduled refresh login session in 19d 23h 55min 0.0s.
+[2022-04-22 18:46:40.040] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [main] [82] [INFO ] Bot login successful.
+[2022-04-22 18:46:40.040] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [46] [DEBUG] Start register listeners.
+[2022-04-22 18:46:40.040] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [54] [DEBUG] Starter register listeners by love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar@335b3d6.
+[2022-04-22 18:46:40.040] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [74] [INFO ] Ready to register method listeners.
+[2022-04-22 18:46:40.040] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [82] [DEBUG] Number of beans to be scanned: 211
+[2022-04-22 18:46:40.040] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar$registerListenerFunctions$2] [main] [104] [DEBUG] Cannot get type class org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration$$Lambda$270/277697988 functions, skip.
+kotlin.reflect.jvm.internal.KotlinReflectionInternalError: Unresolved class: class org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration$$Lambda$270/277697988
+	at kotlin.reflect.jvm.internal.KClassImpl.reportUnresolvedClass(KClassImpl.kt:329)
+	at kotlin.reflect.jvm.internal.KClassImpl.access$reportUnresolvedClass(KClassImpl.kt:44)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$descriptor$2.invoke(KClassImpl.kt:56)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$descriptor$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getDescriptor(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl.getDescriptor(KClassImpl.kt:182)
+	at kotlin.reflect.jvm.internal.KClassImpl.getMemberScope$kotlin_reflection(KClassImpl.kt:191)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$declaredNonStaticMembers$2.invoke(KClassImpl.kt:162)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$declaredNonStaticMembers$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getDeclaredNonStaticMembers(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allNonStaticMembers$2.invoke(KClassImpl.kt:171)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allNonStaticMembers$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getAllNonStaticMembers(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allMembers$2.invoke(KClassImpl.kt:177)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allMembers$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getAllMembers(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl.getMembers(KClassImpl.kt:195)
+	at kotlin.reflect.full.KClasses.getFunctions(KClasses.kt:90)
+	at love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar$registerListenerFunctions$2.invoke(CoreMethodPostListenerRegistrar.kt:103)
+	at love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar$registerListenerFunctions$2.invoke(CoreMethodPostListenerRegistrar.kt:94)
+	at kotlin.sequences.FlatteningSequence$iterator$1.ensureItemIterator(Sequences.kt:315)
+	at kotlin.sequences.FlatteningSequence$iterator$1.hasNext(Sequences.kt:303)
+	at love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar.registerListenerFunctions(CoreMethodPostListenerRegistrar.kt:166)
+	at love.forte.simbot.core.configuration.CoreListenerRegistrar.registerListeners(CoreListenerRegistrar.kt:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at love.forte.common.ioc.MethodDependPass.invoke(DependPass.kt:76)
+	at love.forte.common.ioc.DependCenter.init(DependCenter.kt:108)
+	at love.forte.simbot.core.SimbotApp.initDependCenter(SimbotApp.kt:434)
+	at love.forte.simbot.core.SimbotApp.run$core(SimbotApp.kt:279)
+	at love.forte.simbot.core.SimbotApp$Run.run(SimbotApp.kt:509)
+	at love.forte.simbot.core.SimbotApp.run(SimbotApp.kt)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration.simbotApp(SimbotAppConfiguration.java:77)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration$$EnhancerBySpringCGLIB$$3ca871b5.CGLIB$simbotApp$0(<generated>)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration$$EnhancerBySpringCGLIB$$3ca871b5$$FastClassBySpringCGLIB$$10e0f55e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration$$EnhancerBySpringCGLIB$$3ca871b5.simbotApp(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:760)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:720)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at pro.shuangxi.Application.main(Application.java:13)
+[2022-04-22 18:46:41.041] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [149] [DEBUG] Register listener: [onGroupMsg] for [GroupMsg], id=pro.shuangxi.controller.GroupListen.onGroupMsg#e3c5c054617241e29713bc15f4a2a256, groups=[]
+[2022-04-22 18:46:42.042] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [160] [INFO ] Method listeners Registration is complete.
+[2022-04-22 18:46:42.042] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [58] [DEBUG] Listeners registered.
+[2022-04-22 18:46:42.042] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [66] [DEBUG] Do registered by love.forte.simbot.component.mirai.configuration.MiraiListenerRegistered@47c15468.
+[2022-04-22 18:46:43.043] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [81] [DEBUG] Try get botInfo for 守(3401740772)
+[2022-04-22 18:46:43.043] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [132] [INFO ] Registration Bot: code=3401740772, name=守, level=8
+[2022-04-22 18:46:43.043] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started Application in 17.595 seconds (JVM running for 21.748)
+[2022-04-22 18:46:43.043] [org.springframework.boot.availability.ApplicationAvailabilityBean] [main] [75] [INFO ] Application availability state LivenessState changed to CORRECT
+[2022-04-22 18:46:43.043] [org.springframework.boot.availability.ApplicationAvailabilityBean] [main] [75] [INFO ] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+[2022-04-22 18:48:18.018] [love.forte.simbot.core.listener.CoreListenerManager] [nioEventLoopGroup-2-1] [707] [DEBUG] Init Listener function caches for event type 'love.forte.simbot.component.mirai.message.event.MiraiGroupMsg'. normal listeners 1, spare listeners 0.
+[2022-04-22 18:48:32.032] [com.zaxxer.hikari.HikariDataSource] [simbot-core-event-dispatcher-M-2] [110] [INFO ] HikariPool-1 - Starting...
+[2022-04-22 18:48:32.032] [com.zaxxer.hikari.HikariDataSource] [simbot-core-event-dispatcher-M-2] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-04-22 18:48:32.032] [love.forte.simbot.core.processor.CoreListenResultProcessorManager$processors$2] [simbot-core-event-dispatcher-M-2] [47] [DEBUG] Init listen result processor: love.forte.simbot.core.processor.QuickReplyProcessor@3b5590b9
+[2022-04-22 18:49:53.053] [love.forte.simbot.core.listener.CoreListenerManager] [DefaultDispatcher-worker-3] [707] [DEBUG] Init Listener function caches for event type 'love.forte.simbot.component.mirai.message.event.MiraiBotOffline$Dropped'. normal listeners 0, spare listeners 0.
+[2022-04-22 18:49:53.053] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [87] [WARN ] Connection lost, reconnecting... (HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+[2022-04-22 18:49:53.053] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [87] [WARN ] null
+net.mamoe.mirai.internal.network.impl.netty.HeartbeatFailedException: Exception in AliveHeartbeat job
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:349)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:349)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:251)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:395)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:348)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:108)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: net.mamoe.mirai.internal.network.handler.selector.PacketTimeoutException: Timeout receiving Heartbeat response
+	... 7 common frames omitted
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:186)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:497)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:274)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.lang.Thread.run(Thread.java:748)
+[2022-04-22 18:49:53.053] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-5] [82] [INFO ] Server list: 59.83.208.153:80, 157.148.54.73:443, 111.206.99.80:8080, 157.148.32.167:8080, 111.206.99.118:80, msfwifi.3g.qq.com:8080, 220.196.132.225:14000, 153.3.149.65:14000, 111.206.99.85:80, 123.125.0.161:80.
+[2022-04-22 18:49:53.053] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-5] [82] [INFO ] ECDH key is valid.
+[2022-04-22 18:49:53.053] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-5] [82] [INFO ] Saved account secrets to local cache for fast login.
+[2022-04-22 18:49:53.053] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [nioEventLoopGroup-3-3] [82] [INFO ] Server time updated, serverTime: 1650624593, diff: 0ms=0.0s
+[2022-04-22 18:49:53.053] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-5] [82] [INFO ] Login successful.
+[2022-04-22 18:49:53.053] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Scheduled key refresh in 23h 55min 0.0s.
+[2022-04-22 18:49:53.053] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-4] [82] [INFO ] Scheduled refresh login session in 19d 23h 55min 0.0s.
+[2022-04-22 18:49:53.053] [love.forte.simbot.core.listener.CoreListenerManager] [DefaultDispatcher-worker-3] [707] [DEBUG] Init Listener function caches for event type 'love.forte.simbot.component.mirai.message.event.MiraiBotReLogin'. normal listeners 0, spare listeners 0.
+[2022-04-22 18:49:53.053] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-5] [82] [INFO ] Reconnected successfully in 0.365s.
+[2022-04-22 18:49:56.056] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [nioEventLoopGroup-3-4] [82] [INFO ] Server list: 116.128.184.140:14000, 157.148.54.92:443, 111.206.99.69:80, 60.29.238.126:80, 157.255.13.204:8080, msfwifi.3g.qq.com:8080, 59.83.208.208:14000, 111.206.99.100:8080, 112.86.231.192:80, 220.194.118.224:80.
+[2022-04-22 18:56:08.008] [com.zaxxer.hikari.pool.HikariPool$HouseKeeper] [HikariPool-1 housekeeper] [788] [WARN ] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m20s796ms280µs500ns).
+[2022-04-22 18:56:24.024] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting Application using Java 1.8.0_281 on DESKTOP-0AKVRSK with PID 26496 (C:\Users\Administrator\IntelliJIDEAProjects\ProcessFrameWork\robot\target\classes started by Administrator in C:\Users\Administrator\IntelliJIDEAProjects\ProcessFrameWork)
+[2022-04-22 18:56:24.024] [org.springframework.boot.SpringApplication] [main] [663] [INFO ] No active profile set, falling back to default profiles: default
+[2022-04-22 18:56:27.027] [love.forte.simbot.core.SimbotApp] [main] [339] [INFO ] Active resources: [simbot.properties, simbot.yml]
+[2022-04-22 18:56:27.027] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/core/2.3.4/core-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:56:27.027] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/component-mirai/2.3.4/component-mirai-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:56:27.027] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/http/client-core/2.3.4/client-core-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:56:27.027] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/http/client-ktor/2.3.4/client-ktor-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:56:27.027] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/serialization/json-fastjson/2.3.4/json-fastjson-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 18:56:29.029] [love.forte.simbot.core.SimbotApp] [main] [408] [DEBUG] package scan: love.forte.simbot.spring.autoconfigure
+[2022-04-22 18:56:30.030] [love.forte.simbot.core.configuration.CoreStrictConfiguration] [main] [44] [DEBUG] Core strict mode: true
+[2022-04-22 18:56:30.030] [love.forte.simbot.component.mirai.configuration.MiraiEventCacheConfiguration] [main] [67] [INFO ] Disable default mirai message cache.
+[2022-04-22 18:56:31.031] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [137] [DEBUG] Bot resource Type: RESOURCE_FIRST
+[2022-04-22 18:56:31.031] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [114] [DEBUG] Bot verify info by file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/bk.bot
+[2022-04-22 18:56:31.031] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [119] [DEBUG] Uri stream null: file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/bk.bot, try use url
+[2022-04-22 18:56:31.031] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [114] [DEBUG] Bot verify info by file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot1.bot
+[2022-04-22 18:56:31.031] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [119] [DEBUG] Uri stream null: file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot1.bot, try use url
+[2022-04-22 18:56:31.031] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [114] [DEBUG] Bot verify info by file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot2.bot
+[2022-04-22 18:56:31.031] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [119] [DEBUG] Uri stream null: file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot2.bot, try use url
+[2022-04-22 18:56:31.031] [love.forte.simbot.core.configuration.CoreBotRegistrar] [main] [58] [DEBUG] Configured bot: 3401740772
+[2022-04-22 18:56:31.031] [love.forte.simbot.core.configuration.CoreBotRegistrar] [main] [65] [DEBUG] Try to verify the bot(3401740772) information.
+[2022-04-22 18:56:31.031] [love.forte.simbot.component.mirai.configuration.MiraiBotManager] [main] [101] [DEBUG] Verify Bot 3401740772.
+[2022-04-22 18:56:31.031] [love.forte.simbot.component.mirai.configuration.MiraiBotVerifier] [main] [67] [DEBUG] verify bot code: 3401740772
+[2022-04-22 18:56:35.035] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Server list: 116.128.184.140:14000, 157.148.54.92:443, 111.206.99.69:80, 60.29.238.126:80, 157.255.13.204:8080, msfwifi.3g.qq.com:8080, 59.83.208.208:14000, 111.206.99.100:8080, 112.86.231.192:80, 220.194.118.224:80.
+[2022-04-22 18:56:37.037] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Loaded account secrets from local cache.
+[2022-04-22 18:56:37.037] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] ECDH key is valid.
+[2022-04-22 18:56:38.038] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Saved account secrets to local cache for fast login.
+[2022-04-22 18:56:38.038] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Login successful.
+[2022-04-22 18:56:38.038] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [nioEventLoopGroup-2-3] [82] [INFO ] Server time updated, serverTime: 1650624998, diff: 0ms=0.0s
+[2022-04-22 18:56:38.038] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Syncing friend message history...
+[2022-04-22 18:56:38.038] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Start loading friend list...
+[2022-04-22 18:56:38.038] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-5] [82] [INFO ] Start loading stranger list...
+[2022-04-22 18:56:38.038] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Syncing friend message history: Success.
+[2022-04-22 18:56:38.038] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Successfully loaded stranger list: 0 in total
+[2022-04-22 18:56:38.038] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] No OtherClient online.
+[2022-04-22 18:56:38.038] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Start loading group list...
+[2022-04-22 18:56:38.038] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Successfully loaded friend list: 5 in total
+[2022-04-22 18:56:39.039] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-6] [82] [INFO ] Successfully loaded group list: 3 in total.
+[2022-04-22 18:56:39.039] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Scheduled key refresh in 23h 55min 0.0s.
+[2022-04-22 18:56:39.039] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-5] [82] [INFO ] Scheduled refresh login session in 19d 23h 55min 0.0s.
+[2022-04-22 18:56:39.039] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [main] [82] [INFO ] Bot login successful.
+[2022-04-22 18:56:39.039] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [46] [DEBUG] Start register listeners.
+[2022-04-22 18:56:39.039] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [54] [DEBUG] Starter register listeners by love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar@2444c3df.
+[2022-04-22 18:56:39.039] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [74] [INFO ] Ready to register method listeners.
+[2022-04-22 18:56:39.039] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [82] [DEBUG] Number of beans to be scanned: 211
+[2022-04-22 18:56:39.039] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar$registerListenerFunctions$2] [main] [104] [DEBUG] Cannot get type class org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration$$Lambda$270/367066629 functions, skip.
+kotlin.reflect.jvm.internal.KotlinReflectionInternalError: Unresolved class: class org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration$$Lambda$270/367066629
+	at kotlin.reflect.jvm.internal.KClassImpl.reportUnresolvedClass(KClassImpl.kt:329)
+	at kotlin.reflect.jvm.internal.KClassImpl.access$reportUnresolvedClass(KClassImpl.kt:44)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$descriptor$2.invoke(KClassImpl.kt:56)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$descriptor$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getDescriptor(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl.getDescriptor(KClassImpl.kt:182)
+	at kotlin.reflect.jvm.internal.KClassImpl.getMemberScope$kotlin_reflection(KClassImpl.kt:191)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$declaredNonStaticMembers$2.invoke(KClassImpl.kt:162)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$declaredNonStaticMembers$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getDeclaredNonStaticMembers(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allNonStaticMembers$2.invoke(KClassImpl.kt:171)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allNonStaticMembers$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getAllNonStaticMembers(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allMembers$2.invoke(KClassImpl.kt:177)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allMembers$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getAllMembers(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl.getMembers(KClassImpl.kt:195)
+	at kotlin.reflect.full.KClasses.getFunctions(KClasses.kt:90)
+	at love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar$registerListenerFunctions$2.invoke(CoreMethodPostListenerRegistrar.kt:103)
+	at love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar$registerListenerFunctions$2.invoke(CoreMethodPostListenerRegistrar.kt:94)
+	at kotlin.sequences.FlatteningSequence$iterator$1.ensureItemIterator(Sequences.kt:315)
+	at kotlin.sequences.FlatteningSequence$iterator$1.hasNext(Sequences.kt:303)
+	at love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar.registerListenerFunctions(CoreMethodPostListenerRegistrar.kt:166)
+	at love.forte.simbot.core.configuration.CoreListenerRegistrar.registerListeners(CoreListenerRegistrar.kt:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at love.forte.common.ioc.MethodDependPass.invoke(DependPass.kt:76)
+	at love.forte.common.ioc.DependCenter.init(DependCenter.kt:108)
+	at love.forte.simbot.core.SimbotApp.initDependCenter(SimbotApp.kt:434)
+	at love.forte.simbot.core.SimbotApp.run$core(SimbotApp.kt:279)
+	at love.forte.simbot.core.SimbotApp$Run.run(SimbotApp.kt:509)
+	at love.forte.simbot.core.SimbotApp.run(SimbotApp.kt)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration.simbotApp(SimbotAppConfiguration.java:77)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration$$EnhancerBySpringCGLIB$$9beef404.CGLIB$simbotApp$1(<generated>)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration$$EnhancerBySpringCGLIB$$9beef404$$FastClassBySpringCGLIB$$54a4ae25.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration$$EnhancerBySpringCGLIB$$9beef404.simbotApp(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:760)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:720)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at pro.shuangxi.Application.main(Application.java:13)
+[2022-04-22 18:56:40.040] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [149] [DEBUG] Register listener: [onGroupMsg] for [GroupMsg], id=pro.shuangxi.controller.GroupListen.onGroupMsg#e3c5c054617241e29713bc15f4a2a256, groups=[]
+[2022-04-22 18:56:41.041] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [160] [INFO ] Method listeners Registration is complete.
+[2022-04-22 18:56:41.041] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [58] [DEBUG] Listeners registered.
+[2022-04-22 18:56:41.041] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [66] [DEBUG] Do registered by love.forte.simbot.component.mirai.configuration.MiraiListenerRegistered@1e75af65.
+[2022-04-22 18:56:41.041] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [81] [DEBUG] Try get botInfo for 守(3401740772)
+[2022-04-22 18:56:41.041] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [132] [INFO ] Registration Bot: code=3401740772, name=守, level=8
+[2022-04-22 18:56:41.041] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started Application in 20.322 seconds (JVM running for 24.7)
+[2022-04-22 18:56:41.041] [org.springframework.boot.availability.ApplicationAvailabilityBean] [main] [75] [INFO ] Application availability state LivenessState changed to CORRECT
+[2022-04-22 18:56:41.041] [org.springframework.boot.availability.ApplicationAvailabilityBean] [main] [75] [INFO ] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+[2022-04-22 18:57:09.009] [love.forte.simbot.core.listener.CoreListenerManager] [nioEventLoopGroup-2-16] [707] [DEBUG] Init Listener function caches for event type 'love.forte.simbot.component.mirai.message.event.MiraiGroupMsg'. normal listeners 1, spare listeners 0.
+[2022-04-22 18:57:14.014] [com.zaxxer.hikari.HikariDataSource] [simbot-core-event-dispatcher-M-1] [110] [INFO ] HikariPool-1 - Starting...
+[2022-04-22 18:57:15.015] [com.zaxxer.hikari.HikariDataSource] [simbot-core-event-dispatcher-M-1] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-04-22 18:57:15.015] [love.forte.simbot.core.processor.CoreListenResultProcessorManager$processors$2] [simbot-core-event-dispatcher-M-1] [47] [DEBUG] Init listen result processor: love.forte.simbot.core.processor.QuickReplyProcessor@1671fa19
+[2022-04-22 19:00:59.059] [com.zaxxer.hikari.pool.HikariPool$HouseKeeper] [HikariPool-1 housekeeper] [788] [WARN ] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m44s682ms363µs600ns).
+[2022-04-22 19:01:10.010] [love.forte.simbot.core.listener.CoreListenerManager] [DefaultDispatcher-worker-6] [707] [DEBUG] Init Listener function caches for event type 'love.forte.simbot.component.mirai.message.event.MiraiBotOffline$Dropped'. normal listeners 0, spare listeners 0.
+[2022-04-22 19:01:10.010] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-6] [87] [WARN ] Connection lost, reconnecting... (HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+[2022-04-22 19:01:10.010] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-6] [87] [WARN ] null
+net.mamoe.mirai.internal.network.impl.netty.HeartbeatFailedException: Exception in AliveHeartbeat job
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:349)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:349)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:251)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:395)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:348)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:108)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: net.mamoe.mirai.internal.network.handler.selector.PacketTimeoutException: Timeout receiving Heartbeat response
+	... 13 common frames omitted
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:186)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:497)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:274)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.lang.Thread.run(Thread.java:748)
+[2022-04-22 19:01:10.010] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Server list: 116.128.184.140:14000, 157.148.54.92:443, 111.206.99.69:80, 60.29.238.126:80, 157.255.13.204:8080, msfwifi.3g.qq.com:8080, 59.83.208.208:14000, 111.206.99.100:8080, 112.86.231.192:80, 220.194.118.224:80.
+[2022-04-22 19:01:10.010] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] ECDH key is valid.
+[2022-04-22 19:01:12.012] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Saved account secrets to local cache for fast login.
+[2022-04-22 19:01:13.013] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [nioEventLoopGroup-3-3] [82] [INFO ] Server time updated, serverTime: 1650625273, diff: 0ms=0.0s
+[2022-04-22 19:01:13.013] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Login successful.
+[2022-04-22 19:01:13.013] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-4] [82] [INFO ] Scheduled key refresh in 23h 55min 0.0s.
+[2022-04-22 19:01:13.013] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-7] [82] [INFO ] Scheduled refresh login session in 19d 23h 55min 0.0s.
+[2022-04-22 19:01:13.013] [love.forte.simbot.core.listener.CoreListenerManager] [DefaultDispatcher-worker-5] [707] [DEBUG] Init Listener function caches for event type 'love.forte.simbot.component.mirai.message.event.MiraiBotReLogin'. normal listeners 0, spare listeners 0.
+[2022-04-22 19:01:13.013] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Reconnected successfully in 2.707s.
+[2022-04-22 19:02:56.056] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting Application using Java 1.8.0_281 on DESKTOP-0AKVRSK with PID 3588 (C:\Users\Administrator\IntelliJIDEAProjects\ProcessFrameWork\robot\target\classes started by Administrator in C:\Users\Administrator\IntelliJIDEAProjects\ProcessFrameWork)
+[2022-04-22 19:02:56.056] [org.springframework.boot.SpringApplication] [main] [663] [INFO ] No active profile set, falling back to default profiles: default
+[2022-04-22 19:02:58.058] [love.forte.simbot.core.SimbotApp] [main] [339] [INFO ] Active resources: [simbot.properties, simbot.yml]
+[2022-04-22 19:02:58.058] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/core/2.3.4/core-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 19:02:59.059] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/component-mirai/2.3.4/component-mirai-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 19:02:59.059] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/http/client-core/2.3.4/client-core-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 19:02:59.059] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/http/client-ktor/2.3.4/client-ktor-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 19:02:59.059] [love.forte.simbot.core.SimbotResources] [main] [107] [DEBUG] load auto configure resource: jar:file:/G:/mavenStore/love/forte/simple-robot/serialization/json-fastjson/2.3.4/json-fastjson-2.3.4.jar!/META-INF/simbot.factories
+[2022-04-22 19:03:00.000] [love.forte.simbot.core.SimbotApp] [main] [408] [DEBUG] package scan: love.forte.simbot.spring.autoconfigure
+[2022-04-22 19:03:00.000] [love.forte.simbot.core.configuration.CoreStrictConfiguration] [main] [44] [DEBUG] Core strict mode: true
+[2022-04-22 19:03:01.001] [love.forte.simbot.component.mirai.configuration.MiraiEventCacheConfiguration] [main] [67] [INFO ] Disable default mirai message cache.
+[2022-04-22 19:03:01.001] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [137] [DEBUG] Bot resource Type: RESOURCE_FIRST
+[2022-04-22 19:03:01.001] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [114] [DEBUG] Bot verify info by file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/bk.bot
+[2022-04-22 19:03:01.001] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [119] [DEBUG] Uri stream null: file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/bk.bot, try use url
+[2022-04-22 19:03:01.001] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [114] [DEBUG] Bot verify info by file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot1.bot
+[2022-04-22 19:03:01.001] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [119] [DEBUG] Uri stream null: file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot1.bot, try use url
+[2022-04-22 19:03:01.001] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [114] [DEBUG] Bot verify info by file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot2.bot
+[2022-04-22 19:03:01.001] [love.forte.simbot.bot.SimpleBotVerifyInfoConfiguration] [main] [119] [DEBUG] Uri stream null: file:/C:/Users/Administrator/IntelliJIDEAProjects/ProcessFrameWork/robot/target/classes/simbot-bots/yourBot2.bot, try use url
+[2022-04-22 19:03:01.001] [love.forte.simbot.core.configuration.CoreBotRegistrar] [main] [58] [DEBUG] Configured bot: 3401740772
+[2022-04-22 19:03:01.001] [love.forte.simbot.core.configuration.CoreBotRegistrar] [main] [65] [DEBUG] Try to verify the bot(3401740772) information.
+[2022-04-22 19:03:01.001] [love.forte.simbot.component.mirai.configuration.MiraiBotManager] [main] [101] [DEBUG] Verify Bot 3401740772.
+[2022-04-22 19:03:01.001] [love.forte.simbot.component.mirai.configuration.MiraiBotVerifier] [main] [67] [DEBUG] verify bot code: 3401740772
+[2022-04-22 19:03:04.004] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Server list: 116.128.184.140:14000, 157.148.54.92:443, 111.206.99.69:80, 60.29.238.126:80, 157.255.13.204:8080, msfwifi.3g.qq.com:8080, 59.83.208.208:14000, 111.206.99.100:8080, 112.86.231.192:80, 220.194.118.224:80.
+[2022-04-22 19:03:06.006] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Loaded account secrets from local cache.
+[2022-04-22 19:03:06.006] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] ECDH key is valid.
+[2022-04-22 19:03:07.007] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Saved account secrets to local cache for fast login.
+[2022-04-22 19:03:07.007] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Login successful.
+[2022-04-22 19:03:07.007] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [nioEventLoopGroup-2-3] [82] [INFO ] Server time updated, serverTime: 1650625387, diff: 0ms=0.0s
+[2022-04-22 19:03:07.007] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Syncing friend message history...
+[2022-04-22 19:03:07.007] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Start loading friend list...
+[2022-04-22 19:03:07.007] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-2] [82] [INFO ] Start loading stranger list...
+[2022-04-22 19:03:07.007] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Syncing friend message history: Success.
+[2022-04-22 19:03:07.007] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Successfully loaded stranger list: 0 in total
+[2022-04-22 19:03:07.007] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] No OtherClient online.
+[2022-04-22 19:03:07.007] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Start loading group list...
+[2022-04-22 19:03:07.007] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-1] [82] [INFO ] Successfully loaded friend list: 5 in total
+[2022-04-22 19:03:07.007] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-3] [82] [INFO ] Successfully loaded group list: 3 in total.
+[2022-04-22 19:03:07.007] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-4] [82] [INFO ] Scheduled key refresh in 23h 55min 0.0s.
+[2022-04-22 19:03:07.007] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [DefaultDispatcher-worker-2] [82] [INFO ] Scheduled refresh login session in 19d 23h 55min 0.0s.
+[2022-04-22 19:03:07.007] [net.mamoe.mirai.internal.utils.Slf4jLoggerAdapter] [main] [82] [INFO ] Bot login successful.
+[2022-04-22 19:03:07.007] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [46] [DEBUG] Start register listeners.
+[2022-04-22 19:03:07.007] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [54] [DEBUG] Starter register listeners by love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar@7b29cdea.
+[2022-04-22 19:03:07.007] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [74] [INFO ] Ready to register method listeners.
+[2022-04-22 19:03:07.007] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [82] [DEBUG] Number of beans to be scanned: 211
+[2022-04-22 19:03:08.008] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar$registerListenerFunctions$2] [main] [104] [DEBUG] Cannot get type class org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration$$Lambda$270/367066629 functions, skip.
+kotlin.reflect.jvm.internal.KotlinReflectionInternalError: Unresolved class: class org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration$$Lambda$270/367066629
+	at kotlin.reflect.jvm.internal.KClassImpl.reportUnresolvedClass(KClassImpl.kt:329)
+	at kotlin.reflect.jvm.internal.KClassImpl.access$reportUnresolvedClass(KClassImpl.kt:44)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$descriptor$2.invoke(KClassImpl.kt:56)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$descriptor$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getDescriptor(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl.getDescriptor(KClassImpl.kt:182)
+	at kotlin.reflect.jvm.internal.KClassImpl.getMemberScope$kotlin_reflection(KClassImpl.kt:191)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$declaredNonStaticMembers$2.invoke(KClassImpl.kt:162)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$declaredNonStaticMembers$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getDeclaredNonStaticMembers(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allNonStaticMembers$2.invoke(KClassImpl.kt:171)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allNonStaticMembers$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getAllNonStaticMembers(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allMembers$2.invoke(KClassImpl.kt:177)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data$allMembers$2.invoke(KClassImpl.kt:47)
+	at kotlin.reflect.jvm.internal.ReflectProperties$LazySoftVal.invoke(ReflectProperties.java:92)
+	at kotlin.reflect.jvm.internal.ReflectProperties$Val.getValue(ReflectProperties.java:31)
+	at kotlin.reflect.jvm.internal.KClassImpl$Data.getAllMembers(KClassImpl.kt)
+	at kotlin.reflect.jvm.internal.KClassImpl.getMembers(KClassImpl.kt:195)
+	at kotlin.reflect.full.KClasses.getFunctions(KClasses.kt:90)
+	at love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar$registerListenerFunctions$2.invoke(CoreMethodPostListenerRegistrar.kt:103)
+	at love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar$registerListenerFunctions$2.invoke(CoreMethodPostListenerRegistrar.kt:94)
+	at kotlin.sequences.FlatteningSequence$iterator$1.ensureItemIterator(Sequences.kt:315)
+	at kotlin.sequences.FlatteningSequence$iterator$1.hasNext(Sequences.kt:303)
+	at love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar.registerListenerFunctions(CoreMethodPostListenerRegistrar.kt:166)
+	at love.forte.simbot.core.configuration.CoreListenerRegistrar.registerListeners(CoreListenerRegistrar.kt:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at love.forte.common.ioc.MethodDependPass.invoke(DependPass.kt:76)
+	at love.forte.common.ioc.DependCenter.init(DependCenter.kt:108)
+	at love.forte.simbot.core.SimbotApp.initDependCenter(SimbotApp.kt:434)
+	at love.forte.simbot.core.SimbotApp.run$core(SimbotApp.kt:279)
+	at love.forte.simbot.core.SimbotApp$Run.run(SimbotApp.kt:509)
+	at love.forte.simbot.core.SimbotApp.run(SimbotApp.kt)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration.simbotApp(SimbotAppConfiguration.java:77)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration$$EnhancerBySpringCGLIB$$9beef404.CGLIB$simbotApp$1(<generated>)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration$$EnhancerBySpringCGLIB$$9beef404$$FastClassBySpringCGLIB$$54a4ae25.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at love.forte.simbot.spring.autoconfigure.SimbotAppConfiguration$$EnhancerBySpringCGLIB$$9beef404.simbotApp(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:760)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:720)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at pro.shuangxi.Application.main(Application.java:13)
+[2022-04-22 19:03:09.009] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [149] [DEBUG] Register listener: [onGroupMsg] for [GroupMsg], id=pro.shuangxi.controller.GroupListen.onGroupMsg#e3c5c054617241e29713bc15f4a2a256, groups=[]
+[2022-04-22 19:03:09.009] [love.forte.simbot.core.configuration.CoreMethodPostListenerRegistrar] [main] [160] [INFO ] Method listeners Registration is complete.
+[2022-04-22 19:03:09.009] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [58] [DEBUG] Listeners registered.
+[2022-04-22 19:03:10.010] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [66] [DEBUG] Do registered by love.forte.simbot.component.mirai.configuration.MiraiListenerRegistered@58932d08.
+[2022-04-22 19:03:10.010] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [81] [DEBUG] Try get botInfo for 守(3401740772)
+[2022-04-22 19:03:10.010] [love.forte.simbot.core.configuration.CoreListenerRegistrar] [main] [132] [INFO ] Registration Bot: code=3401740772, name=守, level=8
+[2022-04-22 19:03:10.010] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started Application in 17.007 seconds (JVM running for 20.606)
+[2022-04-22 19:03:10.010] [org.springframework.boot.availability.ApplicationAvailabilityBean] [main] [75] [INFO ] Application availability state LivenessState changed to CORRECT
+[2022-04-22 19:03:10.010] [org.springframework.boot.availability.ApplicationAvailabilityBean] [main] [75] [INFO ] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+[2022-04-22 19:03:13.013] [love.forte.simbot.core.listener.CoreListenerManager] [nioEventLoopGroup-2-16] [707] [DEBUG] Init Listener function caches for event type 'love.forte.simbot.component.mirai.message.event.MiraiGroupMsg'. normal listeners 1, spare listeners 0.
+[2022-04-22 19:03:14.014] [com.zaxxer.hikari.HikariDataSource] [simbot-core-event-dispatcher-M-1] [110] [INFO ] HikariPool-1 - Starting...
+[2022-04-22 19:03:14.014] [com.zaxxer.hikari.HikariDataSource] [simbot-core-event-dispatcher-M-1] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-04-22 19:03:15.015] [love.forte.simbot.core.processor.CoreListenResultProcessorManager$processors$2] [simbot-core-event-dispatcher-M-1] [47] [DEBUG] Init listen result processor: love.forte.simbot.core.processor.QuickReplyProcessor@5c1d1d5f
+[2022-04-22 19:10:08.008] [love.forte.simbot.component.mirai.configuration.MiraiListenerRegistered] [Thread-55] [69] [INFO ] try to close all bots...
+[2022-04-22 19:10:08.008] [love.forte.simbot.component.mirai.configuration.MiraiListenerRegistered$shutdown$waiting$1$1] [Thread-55] [74] [DEBUG] try to close bot(3401740772)...

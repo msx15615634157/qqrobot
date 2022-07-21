@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "bot",
+      "type": "pro.shuangxi.config.MyBotProperties",
+      "sourceType": "pro.shuangxi.config.MyBotProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bot.account",
+      "type": "java.lang.Long",
+      "description": "QQ账号",
+      "sourceType": "pro.shuangxi.config.MyBotProperties"
+    },
+    {
+      "name": "bot.password",
+      "type": "java.lang.String",
+      "description": "QQ密码",
+      "sourceType": "pro.shuangxi.config.MyBotProperties"
+    }
+  ],
+  "hints": []
+}

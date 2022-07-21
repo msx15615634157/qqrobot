@@ -1,0 +1,31 @@
+[2022-07-20 10:46:09.009] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting Application using Java 1.8.0_281 on DESKTOP-0AKVRSK with PID 12036 (C:\Users\Administrator\IntelliJIDEAProjects\ProcessFrameWork_mirai\robot\target\classes started by Administrator in C:\Users\Administrator\IntelliJIDEAProjects\ProcessFrameWork_mirai)
+[2022-07-20 10:46:09.009] [org.springframework.boot.SpringApplication] [main] [663] [INFO ] No active profile set, falling back to default profiles: default
+[2022-07-20 10:46:10.010] [org.springframework.core.log.CompositeLog] [background-preinit] [127] [WARN ] For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[2022-07-20 10:46:14.014] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-07-20 10:46:14.014] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-20 10:46:14.014] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-07-20 10:46:14.014] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2022-07-20 10:46:15.015] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-07-20 10:46:15.015] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [290] [INFO ] Root WebApplicationContext: initialization completed in 5234 ms
+[2022-07-20 10:48:39.039] [pro.shuangxi.wss.WebSocketConfig$1] [Thread-310] [27] [INFO ] [websocket] 连接成功
+[2022-07-20 10:48:41.041] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-20 10:48:41.041] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-07-20 10:48:41.041] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started Application in 154.487 seconds (JVM running for 161.983)
+[2022-07-20 10:48:41.041] [org.springframework.boot.availability.ApplicationAvailabilityBean] [main] [75] [INFO ] Application availability state LivenessState changed to CORRECT
+[2022-07-20 10:48:41.041] [org.springframework.boot.availability.ApplicationAvailabilityBean] [main] [75] [INFO ] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+[2022-07-20 12:00:59.059] [pro.shuangxi.wss.WebSocketConfig$1] [Thread-310] [38] [INFO ] [websocket] 退出连接
+[2022-07-20 13:46:31.031] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting Application using Java 1.8.0_281 on DESKTOP-0AKVRSK with PID 12492 (C:\Users\Administrator\IntelliJIDEAProjects\ProcessFrameWork_mirai\robot\target\classes started by Administrator in C:\Users\Administrator\IntelliJIDEAProjects\ProcessFrameWork_mirai)
+[2022-07-20 13:46:31.031] [org.springframework.boot.SpringApplication] [main] [663] [INFO ] No active profile set, falling back to default profiles: default
+[2022-07-20 13:46:31.031] [org.springframework.core.log.CompositeLog] [background-preinit] [127] [WARN ] For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[2022-07-20 13:46:35.035] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-07-20 13:46:35.035] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-20 13:46:35.035] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-07-20 13:46:35.035] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2022-07-20 13:46:36.036] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-07-20 13:46:36.036] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [290] [INFO ] Root WebApplicationContext: initialization completed in 4932 ms
+[2022-07-20 13:46:51.051] [pro.shuangxi.wss.WebSocketConfig$1] [Thread-64] [27] [INFO ] [websocket] 连接成功
+[2022-07-20 13:46:52.052] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-20 13:46:52.052] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-07-20 13:46:52.052] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started Application in 24.558 seconds (JVM running for 30.608)
+[2022-07-20 13:46:52.052] [org.springframework.boot.availability.ApplicationAvailabilityBean] [main] [75] [INFO ] Application availability state LivenessState changed to CORRECT
+[2022-07-20 13:46:52.052] [org.springframework.boot.availability.ApplicationAvailabilityBean] [main] [75] [INFO ] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
