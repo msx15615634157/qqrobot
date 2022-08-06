@@ -19,6 +19,14 @@ public class RegexUtils {
         }
         return "";
     }
+   public static String getGroup(String regex, String text,int index) {
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(text);
+        if (matcher.find()) {
+            return matcher.group(index);
+        }
+        return "";
+    }
    public static List<String> getList(String regex, String text) {
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(text);

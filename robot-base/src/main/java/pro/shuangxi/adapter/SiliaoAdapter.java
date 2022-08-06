@@ -1,6 +1,6 @@
 package pro.shuangxi.adapter;
 
-import pro.shuangxi.handlertype.GroupHandler;
+import pro.shuangxi.handlertype.PrivateHandler;
 import pro.shuangxi.pojo.DispatcherParam;
 import pro.shuangxi.pojo.Message;
 import pro.shuangxi.support.Handler;
@@ -21,17 +21,17 @@ public class SiliaoAdapter implements HandlerAdapter {
     @Override
     public void handle(DispatcherParam param, List<Handler> handlers) {
         Map<String, Object> data = param.getData();
-        Object groupCode = data.get("groupCode");
+        Object personCode = data.get("personCode");
 
         for (Handler handler : handlers) {
-            if(handler instanceof GroupHandler){
+            if(handler instanceof PrivateHandler){
                 String text = param.getKey();
                 String regex = handler.getCommondName();
                 if(Pattern.matches(regex, text)){
                     try {
                         Message message= handler.process(param);
                         if (message != null) {
-                            MessageUtils.senGroupMsg(groupCode.toString(), message);
+                            MessageUtils.senGroupMsg(personCode.toString(), message);
                         }
                     } catch (Exception e) {
                         e.printStackTrace();

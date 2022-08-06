@@ -25,15 +25,22 @@ public class MessageUtils {
 
     public static void senGroupMsg(String groupCode,String msg) {
         Group group = bot.getGroup(Long.valueOf(groupCode));
-        group.sendMessage(msg);
+        if (group != null) {
+            group.sendMessage(msg);
+        }
+
     }
     public static void senGroupMsg(String groupCode,MessageChainBuilder builder) {
         Group group = bot.getGroup(Long.valueOf(groupCode));
-        group.sendMessage(builder.build());
+        if (group != null) {
+            group.sendMessage(builder.build());
+        }
+
     }
     public static void senGroupMsg(String groupCode, Message message) {
         MessageChainBuilder builder = new MessageChainBuilder();
         Group group = bot.getGroup(Long.valueOf(groupCode));
+        if(group==null) return;
         for (MessageLine line : message.getContents()) {
             if (line instanceof TextLine) {
                 builder.append(new PlainText(((TextLine) line).getContent()));
