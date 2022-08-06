@@ -1,13 +1,11 @@
 package pro.shuangxi.utils;
 
-import net.mamoe.mirai.Bot;
 import net.mamoe.mirai.contact.Friend;
 import net.mamoe.mirai.contact.Group;
-import net.mamoe.mirai.message.data.At;
-import net.mamoe.mirai.message.data.Image;
-import net.mamoe.mirai.message.data.MessageChainBuilder;
-import net.mamoe.mirai.message.data.PlainText;
+import net.mamoe.mirai.message.code.MiraiCode;
+import net.mamoe.mirai.message.data.*;
 import net.mamoe.mirai.utils.ExternalResource;
+import pro.shuangxi.pojo.Message;
 import pro.shuangxi.pojo.*;
 
 import java.io.ByteArrayInputStream;
@@ -18,32 +16,37 @@ import java.io.ByteArrayInputStream;
  * @description：
  */
 public class MessageUtils {
-    private static Bot bot;
-    public static void setBot(Bot bot) {
-        MessageUtils.bot = bot;
-    }
 
-    public static void senGroupMsg(String groupCode,String msg) {
-        Group group = bot.getGroup(Long.valueOf(groupCode));
+    public static void sendSerializedGroupMsg(String groupCode,String msg) {
+        Group group = BotHolderUtils.getBot().getGroup(Long.valueOf(groupCode));
+        if (group != null) {
+            MessageChain chain = MiraiCode.deserializeMiraiCode(msg);
+            group.sendMessage(chain);
+        }
+
+    }
+    public static void sendGroupMsg(String groupCode,String msg) {
+        Group group = BotHolderUtils.getBot().getGroup(Long.valueOf(groupCode));
         if (group != null) {
             group.sendMessage(msg);
         }
 
     }
-    public static void senGroupMsg(String groupCode,MessageChainBuilder builder) {
-        Group group = bot.getGroup(Long.valueOf(groupCode));
+    public static void sendGroupMsg(String groupCode,MessageChainBuilder builder) {
+        Group group = BotHolderUtils.getBot().getGroup(Long.valueOf(groupCode));
         if (group != null) {
             group.sendMessage(builder.build());
         }
 
     }
-    public static void senGroupMsg(String groupCode, Message message) {
+    public static void sendGroupMsg(String groupCode, Message message) {
         MessageChainBuilder builder = new MessageChainBuilder();
-        Group group = bot.getGroup(Long.valueOf(groupCode));
+        Group group = BotHolderUtils.getBot().getGroup(Long.valueOf(groupCode));
         if(group==null) return;
         for (MessageLine line : message.getContents()) {
             if (line instanceof TextLine) {
                 builder.append(new PlainText(((TextLine) line).getContent()));
+                continue;
             }
             if (line instanceof ImageLine) {
 
@@ -51,18 +54,24 @@ public class MessageUtils {
                 ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(bytes);
                 Image image = ExternalResource.uploadAsImage(byteArrayInputStream, group);
                 builder.append(image);
+                continue;
 //                builder.image(((ImageLine) line).getContent());
             }
             if (line instanceof AtLine) {
                 builder.append(new At(Long.valueOf(((AtLine) line).getContent())));
+                continue;
+            }
+            if (line instanceof AtAllLine) {
+                builder.append(AtAll.INSTANCE);
+                continue;
             }
         }
-        MessageUtils.senGroupMsg(groupCode, builder);
+        MessageUtils.sendGroupMsg(groupCode, builder);
     }
 
     public static void senPrivateMsg(String code,String msg) {
         MessageChainBuilder builder = new MessageChainBuilder();
-        Friend friend = bot.getFriend(Long.valueOf(code));
+        Friend friend = BotHolderUtils.getBot().getFriend(Long.valueOf(code));
         friend.sendMessage(msg);
     }
 }

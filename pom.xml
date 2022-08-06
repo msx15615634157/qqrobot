@@ -16,6 +16,7 @@
     <modules>
         <module>robot-api</module>
         <module>robot-base</module>
+        <module>robot-demo</module>
     </modules>
     <dependencies>
 
@@ -120,7 +121,7 @@
                 <configuration>
                     <serverId>ossrh</serverId>
                     <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
-                    <autoReleaseAfterClose>false</autoReleaseAfterClose>
+                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
 
             </plugin>

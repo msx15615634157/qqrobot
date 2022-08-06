@@ -31,7 +31,7 @@ public class SiliaoAdapter implements HandlerAdapter {
                     try {
                         Message message= handler.process(param);
                         if (message != null) {
-                            MessageUtils.senGroupMsg(personCode.toString(), message);
+                            MessageUtils.sendGroupMsg(personCode.toString(), message);
                         }
                     } catch (Exception e) {
                         e.printStackTrace();

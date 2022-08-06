@@ -19,7 +19,7 @@ import pro.shuangxi.ProcessDispatcher;
 import pro.shuangxi.adapter.QunliaoAdapter;
 import pro.shuangxi.adapter.SiliaoAdapter;
 import pro.shuangxi.pojo.DispatcherParam;
-import pro.shuangxi.utils.MessageUtils;
+import pro.shuangxi.utils.BotHolderUtils;
 import pro.shuangxi.utils.RegexUtils;
 
 import java.util.HashMap;
@@ -59,6 +59,7 @@ public class BotAutoConfig {
             param.setKey(message.contentToString());
             Map<String, Object> data = new HashMap<>();
             data.put("groupCode", Long.toString(group.getId()));
+            data.put("serializeMessage", message.serializeToMiraiCode());
             data.put("groupName", group.getName());
             data.put("personCode", Long.toString(sender.getId()));
             data.put("personName", sender.getNick());
@@ -69,7 +70,7 @@ public class BotAutoConfig {
         });
 
 
-        MessageUtils.setBot(bot);
+        BotHolderUtils.setBot(bot);
         return bot;
     }
 

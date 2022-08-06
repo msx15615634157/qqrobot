@@ -31,7 +31,7 @@ public class QunliaoAdapter implements HandlerAdapter {
                         try {
                             Message message= handler.process(param);
                             if (message != null) {
-                                MessageUtils.senGroupMsg(groupCode.toString(), message);
+                                MessageUtils.sendGroupMsg(groupCode.toString(), message);
                             }
                         } catch (Exception e) {
                             e.printStackTrace();

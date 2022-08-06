@@ -3,7 +3,7 @@ package pro.shuangxi.pojo;
 /**
  * @author ：mengshx
  * @date ：Created in 2022/3/29 14:48
- * @description：
+ * @description：文本
  */
 public class TextLine extends MessageLine {
     String content ;

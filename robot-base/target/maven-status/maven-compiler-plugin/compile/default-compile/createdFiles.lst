@@ -1,10 +1,10 @@
 pro\shuangxi\utils\RegexUtils.class
-pro\shuangxi\config\MyBotProperties.class
 pro\shuangxi\utils\MessageUtils.class
-pro\shuangxi\handlertype\GroupHandler.class
 pro\shuangxi\adapter\QunliaoAdapter.class
 pro\shuangxi\annotation\EnableBot.class
 META-INF\spring-configuration-metadata.json
 pro\shuangxi\adapter\SiliaoAdapter.class
 pro\shuangxi\config\BotAutoConfig.class
 pro\shuangxi\handlertype\PrivateHandler.class
+pro\shuangxi\config\MyBotProperties.class
+pro\shuangxi\handlertype\GroupHandler.class

@@ -3,7 +3,7 @@ package pro.shuangxi.pojo;
 /**
  * @author ：mengshx
  * @date ：Created in 2022/3/29 14:48
- * @description：
+ * @description：图片
  */
 public class ImageLine extends MessageLine {
     byte[] content;
