@@ -63,6 +63,7 @@ public class BotAutoConfig {
             data.put("groupName", group.getName());
             data.put("personCode", Long.toString(sender.getId()));
             data.put("personName", sender.getNick());
+            data.put("avatarUrl", sender.getAvatarUrl());
             List<String> atList = RegexUtils.getList("@(\\d+) ", message.contentToString());
             data.put("atList", atList);
             param.setData(data);
