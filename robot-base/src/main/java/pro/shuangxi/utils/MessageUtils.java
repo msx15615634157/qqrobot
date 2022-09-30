@@ -2,6 +2,7 @@ package pro.shuangxi.utils;
 
 import net.mamoe.mirai.contact.Friend;
 import net.mamoe.mirai.contact.Group;
+import net.mamoe.mirai.message.MessageReceipt;
 import net.mamoe.mirai.message.code.MiraiCode;
 import net.mamoe.mirai.message.data.*;
 import net.mamoe.mirai.utils.ExternalResource;
@@ -9,6 +10,8 @@ import pro.shuangxi.pojo.Message;
 import pro.shuangxi.pojo.*;
 
 import java.io.ByteArrayInputStream;
+import java.util.Timer;
+import java.util.TimerTask;
 
 /**
  * @author ：mengshx
@@ -16,7 +19,6 @@ import java.io.ByteArrayInputStream;
  * @description：
  */
 public class MessageUtils {
-
     public static void sendSerializedGroupMsg(String groupCode,String msg) {
         Group group = BotHolderUtils.getBot().getGroup(Long.valueOf(groupCode));
         if (group != null) {
@@ -32,11 +34,13 @@ public class MessageUtils {
         }
 
     }
-    public static void sendGroupMsg(String groupCode,MessageChainBuilder builder) {
+    public static MessageReceipt sendGroupMsg(String groupCode,MessageChainBuilder builder) {
         Group group = BotHolderUtils.getBot().getGroup(Long.valueOf(groupCode));
         if (group != null) {
-            group.sendMessage(builder.build());
+            MessageReceipt message = group.sendMessage(builder.build());
+            return message;
         }
+        return  null;
 
     }
     public static void sendGroupMsg(String groupCode, Message message) {
@@ -66,7 +70,16 @@ public class MessageUtils {
                 continue;
             }
         }
-        MessageUtils.sendGroupMsg(groupCode, builder);
+        MessageReceipt groupMsg = MessageUtils.sendGroupMsg(groupCode, builder);
+        if (message.getRecall() > 0) {
+            Timer timer = new Timer();
+            timer.schedule(new TimerTask() {
+                @Override
+                public void run() {
+                    groupMsg.recall();
+                }
+            },message.getRecall());
+        }
     }
 
     public static void senPrivateMsg(String code,String msg) {

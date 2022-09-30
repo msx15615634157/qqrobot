@@ -12,6 +12,7 @@ import net.mamoe.mirai.event.events.FriendMessageEvent;
 import net.mamoe.mirai.event.events.GroupMessageEvent;
 import net.mamoe.mirai.message.data.MessageChain;
 import net.mamoe.mirai.utils.BotConfiguration;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -38,6 +39,7 @@ public class BotAutoConfig {
     @Bean
     public Bot newBot(ProcessDispatcher dispatcher,MyBotProperties properties) {
         BotConfiguration configuration = new BotConfiguration();
+        configuration.setProtocol(BotConfiguration.MiraiProtocol.ANDROID_PAD);
         Bot bot = BotFactory.INSTANCE.newBot(properties.getAccount(), properties.getPassword(), configuration);
         bot.login();
         bot.getEventChannel().subscribeAlways(FriendMessageEvent.class, EmptyCoroutineContext.INSTANCE, ConcurrencyKind.CONCURRENT, EventPriority.NORMAL, event -> {
@@ -76,11 +78,13 @@ public class BotAutoConfig {
     }
 
     @Bean
+    @ConditionalOnMissingBean({QunliaoAdapter.class})
     public QunliaoAdapter qunliaoAdapter() throws Exception {
         return new QunliaoAdapter();
     }
 
     @Bean
+    @ConditionalOnMissingBean({SiliaoAdapter.class})
     public SiliaoAdapter siliaoAdapter() throws Exception {
         return new SiliaoAdapter();
     }

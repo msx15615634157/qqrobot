@@ -11,6 +11,7 @@ public class Message {
 
 
 
+    private int recall=-1;
     ArrayList<MessageLine> contents = new ArrayList<>();
 
     public ArrayList<MessageLine> getContents() {
@@ -23,5 +24,14 @@ public class Message {
     }
     public static Message getInstance(){
         return new Message();
+    }
+
+
+    public void setRecall(int recall) {
+        this.recall = recall;
+    }
+
+    public int getRecall() {
+        return recall;
     }
 }

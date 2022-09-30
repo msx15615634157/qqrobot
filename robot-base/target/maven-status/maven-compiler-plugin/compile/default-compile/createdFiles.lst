@@ -1,4 +1,5 @@
 pro\shuangxi\utils\RegexUtils.class
+pro\shuangxi\utils\MessageUtils$1.class
 pro\shuangxi\utils\MessageUtils.class
 pro\shuangxi\adapter\QunliaoAdapter.class
 pro\shuangxi\annotation\EnableBot.class
